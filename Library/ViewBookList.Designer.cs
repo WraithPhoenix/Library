@@ -65,7 +65,7 @@ namespace Library
             this.Edit});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(978, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1132, 31);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -75,7 +75,7 @@ namespace Library
             this.Add.Image = ((System.Drawing.Image)(resources.GetObject("Add.Image")));
             this.Add.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Add.Name = "Add";
-            this.Add.Size = new System.Drawing.Size(63, 22);
+            this.Add.Size = new System.Drawing.Size(80, 28);
             this.Add.Text = "Добавить";
             this.Add.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
@@ -85,7 +85,7 @@ namespace Library
             this.Dell.Image = ((System.Drawing.Image)(resources.GetObject("Dell.Image")));
             this.Dell.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Dell.Name = "Dell";
-            this.Dell.Size = new System.Drawing.Size(55, 22);
+            this.Dell.Size = new System.Drawing.Size(69, 28);
             this.Dell.Text = "Удалить";
             this.Dell.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
@@ -100,34 +100,34 @@ namespace Library
             this.SortBy.Image = ((System.Drawing.Image)(resources.GetObject("SortBy.Image")));
             this.SortBy.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.SortBy.Name = "SortBy";
-            this.SortBy.Size = new System.Drawing.Size(91, 22);
+            this.SortBy.Size = new System.Drawing.Size(113, 28);
             this.SortBy.Text = "Сортировать";
             // 
             // поНазваниюToolStripMenuItem
             // 
             this.поНазваниюToolStripMenuItem.Name = "поНазваниюToolStripMenuItem";
-            this.поНазваниюToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.поНазваниюToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
             this.поНазваниюToolStripMenuItem.Text = "По названию";
             this.поНазваниюToolStripMenuItem.Click += new System.EventHandler(this.поНазваниюToolStripMenuItem_Click);
             // 
             // поАвторуToolStripMenuItem
             // 
             this.поАвторуToolStripMenuItem.Name = "поАвторуToolStripMenuItem";
-            this.поАвторуToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.поАвторуToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
             this.поАвторуToolStripMenuItem.Text = "По автору";
             this.поАвторуToolStripMenuItem.Click += new System.EventHandler(this.поАвторуToolStripMenuItem_Click);
             // 
             // поИздательствуToolStripMenuItem
             // 
             this.поИздательствуToolStripMenuItem.Name = "поИздательствуToolStripMenuItem";
-            this.поИздательствуToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.поИздательствуToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
             this.поИздательствуToolStripMenuItem.Text = "По издательству";
             this.поИздательствуToolStripMenuItem.Click += new System.EventHandler(this.поИздательствуToolStripMenuItem_Click);
             // 
             // поДатеДобавленияToolStripMenuItem
             // 
             this.поДатеДобавленияToolStripMenuItem.Name = "поДатеДобавленияToolStripMenuItem";
-            this.поДатеДобавленияToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.поДатеДобавленияToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
             this.поДатеДобавленияToolStripMenuItem.Text = "По дате добавления";
             this.поДатеДобавленияToolStripMenuItem.Click += new System.EventHandler(this.поДатеДобавленияToolStripMenuItem_Click);
             // 
@@ -137,7 +137,7 @@ namespace Library
             this.Refresh.Image = ((System.Drawing.Image)(resources.GetObject("Refresh.Image")));
             this.Refresh.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Refresh.Name = "Refresh";
-            this.Refresh.Size = new System.Drawing.Size(65, 22);
+            this.Refresh.Size = new System.Drawing.Size(82, 28);
             this.Refresh.Text = "Обновить";
             this.Refresh.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 
@@ -147,7 +147,7 @@ namespace Library
             this.Save.Image = ((System.Drawing.Image)(resources.GetObject("Save.Image")));
             this.Save.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Save.Name = "Save";
-            this.Save.Size = new System.Drawing.Size(70, 22);
+            this.Save.Size = new System.Drawing.Size(87, 28);
             this.Save.Text = "Сохранить";
             this.Save.Click += new System.EventHandler(this.toolStripButton5_Click);
             // 
@@ -157,7 +157,7 @@ namespace Library
             this.Edit.Image = ((System.Drawing.Image)(resources.GetObject("Edit.Image")));
             this.Edit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Edit.Name = "Edit";
-            this.Edit.Size = new System.Drawing.Size(86, 22);
+            this.Edit.Size = new System.Drawing.Size(109, 28);
             this.Edit.Text = "Редакировать";
             this.Edit.Click += new System.EventHandler(this.toolStripButton6_Click);
             // 
@@ -172,10 +172,11 @@ namespace Library
             this.Year,
             this.Create});
             this.BookGrid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BookGrid.Location = new System.Drawing.Point(0, 25);
+            this.BookGrid.Location = new System.Drawing.Point(0, 31);
+            this.BookGrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BookGrid.Name = "BookGrid";
             this.BookGrid.RowHeadersWidth = 51;
-            this.BookGrid.Size = new System.Drawing.Size(978, 425);
+            this.BookGrid.Size = new System.Drawing.Size(1132, 523);
             this.BookGrid.TabIndex = 2;
             // 
             // ISBN
@@ -201,7 +202,7 @@ namespace Library
             // 
             // Pub
             // 
-            this.Pub.HeaderText = "Издательство";
+            this.Pub.HeaderText = "Издаельство";
             this.Pub.MinimumWidth = 6;
             this.Pub.Name = "Pub";
             this.Pub.Width = 125;
@@ -223,12 +224,13 @@ namespace Library
             // 
             // ViewBookList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(978, 450);
+            this.ClientSize = new System.Drawing.Size(1132, 554);
             this.Controls.Add(this.BookGrid);
             this.Controls.Add(this.toolStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ViewBookList";

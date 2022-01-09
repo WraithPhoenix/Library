@@ -89,14 +89,6 @@ namespace Library
 
     class TitleComparer : IComparer<Book>
     {
-        public Book Book
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
         public int Compare(Book x, Book y)
         {
             return String.Compare(x.title, y.title);
@@ -105,14 +97,6 @@ namespace Library
     }
     class AuthorComparer : IComparer<Book>
     {
-        public Book Book
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
         public int Compare(Book x, Book y)
         {
             return String.Compare(x.author, y.author);
@@ -121,14 +105,6 @@ namespace Library
     }
     class PubComparer : IComparer<Book>
     {
-        public Book Book
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
         public int Compare(Book x, Book y)
         {
             return String.Compare(x.publish, y.publish);
@@ -137,14 +113,6 @@ namespace Library
     }
     class CreateComparer : IComparer<Book>
     {
-        public Book Book
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
         public int Compare(Book x, Book y)
         {
             return String.Compare(x.create, y.create);

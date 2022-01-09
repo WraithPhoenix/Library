@@ -1,113 +1,97 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Library.AddBook">
-    <Position X="0.5" Y="2.25" Width="1.5" />
+  <Class Name="Library.AddBook" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAACABCIAABAAAACAQAACAAAMAAAAAEAACAAgAAA=</HashCode>
       <FileName>AddBook.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Library.Book">
-    <Position X="2.25" Y="0.5" Width="1.5" />
+  <Class Name="Library.Book" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAEgIAAQAAAQAAAAAABAIAAAAAAAAAAAABAAAAAAAA=</HashCode>
       <FileName>Book.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Library.TitleComparer" BaseTypeListCollapsed="true">
-    <Position X="4.5" Y="3" Width="1.5" />
+  <Class Name="Library.TitleComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
       <FileName>Book.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Book" />
-    </ShowAsAssociation>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="Library.AuthorComparer" BaseTypeListCollapsed="true">
-    <Position X="4.5" Y="1.75" Width="1.5" />
+  <Class Name="Library.AuthorComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
       <FileName>Book.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Book" />
-    </ShowAsAssociation>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="Library.PubComparer" BaseTypeListCollapsed="true">
+  <Class Name="Library.PubComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Book.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.CreateComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Book.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Library.EditBook" Collapsed="true">
     <Position X="6.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
-      <FileName>Book.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Book" />
-    </ShowAsAssociation>
-    <Lollipop Position="0.2" Collapsed="true" />
-  </Class>
-  <Class Name="Library.CreateComparer" BaseTypeListCollapsed="true">
-    <Position X="4.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
-      <FileName>Book.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Book" />
-    </ShowAsAssociation>
-    <Lollipop Position="0.2" Collapsed="true" />
-  </Class>
-  <Class Name="Library.EditBook">
-    <Position X="6.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAAAABCIAABAAAACAQAACAAAMAAAAAEAAAAAAAAA=</HashCode>
       <FileName>EditBook.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Library.globals">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+  <Class Name="Library.globals" Collapsed="true">
+    <Position X="1.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAgAAA=</HashCode>
       <FileName>globals.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Library.Main">
-    <Position X="4.5" Y="4.25" Width="1.5" />
+  <Class Name="Library.Main" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAEAAAACAEAAQAAAiAAAACAAAAIAACwAAQAAACAAA=</HashCode>
       <FileName>Main.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Library.Program">
-    <Position X="6.5" Y="1.75" Width="1.5" />
+  <Class Name="Library.Program" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Library.ViewBookList">
-    <Position X="9" Y="0.75" Width="1.5" />
+  <Class Name="Library.ViewBookList" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAIAEBSBAAEQAgdeEAAACAAAAEEACAAAIAAAkACg=</HashCode>
       <FileName>ViewBookList.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Library.Properties.Resources">
-    <Position X="2.25" Y="5.5" Width="1.5" />
+  <Class Name="Library.Properties.Resources" Collapsed="true">
+    <Position X="1.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
     </TypeIdentifier>
   </Class>
-  <Class Name="Library.Properties.Settings">
-    <Position X="2.25" Y="3.75" Width="1.5" />
+  <Class Name="Library.Properties.Settings" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
     </TypeIdentifier>
-  </Class>
-  <Class Name="System.Windows.Forms.Form" Collapsed="true">
-    <Position X="6.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier />
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
